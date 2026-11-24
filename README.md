@@ -1,5 +1,5 @@
 # Ex04 Time Table
-## Date:17/11/2026
+## Date:24/11/2026
 
 ## AIM
 To write a html webpage page to display your slot timetable.
@@ -30,133 +30,124 @@ Execute the program using runserver command.
 ```
 <html>
 <head>
-<title>Slot Time Table</title>
+    <title>Experiment 4</title>
 </head>
+<body>
+    <img src="logo.png" width="750" height="180" >
 
-<body bgcolor="white">
+<h1 align="center">
+    SLOT TIME TABLE - SADHANA S (26014356)
+</h1>
 
-<center>
-    <img src="logo.png" width="800" height="150">
-</center>
+<table border="2" cellpadding="10" cellspacing="1" align="center" width="700" height="170">
 
-<h2 align="center" style="color:#512E5F;">
-SLOT TIME TABLE - SADHANA S(26014356)
-</h2>
+    <tr bgcolor="baby pink" align="center">
+        <th>Day/Time</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+    </tr>
 
-<!-- FIRST TABLE: TIME TABLE -->
+    <tr bgcolor="pink" align="center">
+        <td bgcolor="baby pink">8:00-10:00</td>
+        <td></td>SOFTWARE ENGINEERING
+        <td>PYTHON</td>
+        <td>PYTHON</td>
+        <td>MATHS</td>
+        <td>FREE SLOT</td>
+        <td>MATHS</td>
+    </tr>
 
-<table border="2" align="center" cellpadding="12"
-style="border-collapse:collapse; text-align:center;">
+    <tr bgcolor="pink" align="center">
+        <td bgcolor="baby pink">10:00-12:00</td>
+        <td>FREE SLOT</td>
+        <td>FWAD</td>
+        <td>FREE SLOT</td>
+        <td>SOFTWARE ENGINEERING </td>
+        <td>FWAD</td>
+        <td>DE</td>
+    </tr>
 
-<tr bgcolor="#8E44AD" style="color:white;">
-<th>Time / Day</th>
-<th>Monday</th>
-<th>Tuesday</th>
-<th>Wednesday</th>
-<th>Thursday</th>
-<th>Friday</th>
-<th>Saturday</th>
-</tr>
+    <tr bgcolor="pink" align="center">
+        <td bgcolor="baby pink">12:00-01:00</td>
+        <td colspan="6" align="center">LUNCH BREAK</td>
+    </tr>
 
-<tr bgcolor="#E8DAEF">
-<th>8:00-10:00 AM</th>
-<td>Software Engineering</td>
-<td>Python</td>
-<td>Python</td>
-<td>Calculus & Matrix Algebra</td>
-<td>---</td>
-<td>Calculus & Matrix Algebra</td>
-</tr>
+    <tr bgcolor="pink" align="center">
+        <td bgcolor="baby pink">01:00-03:00</td>
+        <td>FWAD</td>
+        <td>DE</td>
+        <td>FREE SLOT</td>
+        <td>COMMUNICATIVE ENGLISH</td>
+        <td>FREE SLOT</td>
+        <td>FREE SLOT</td>
+    </tr>
 
-<tr bgcolor="#E8DAEF">
-<th>10:00-12:00 PM</th>
-<td>---</td>
-<td>FWAD</td>
-<td>---</td>
-<td>Software Engineering</td>
-<td>FWAD</td>
-<td>Digital Electronics</td>
-</tr>
 
-<tr bgcolor="#E8DAEF">
-<th>1:00-3:00 PM</th>
-<td>FWAD</td>
-<td>Digital Electronics</td>
-<td>---</td>
-<td>Communicative English</td>
-<td>---</td>
-<td>---</td>
-</tr>
-
-<tr bgcolor="#E8DAEF">
-<th>3:00-5:00 PM</th>
-<td>---</td>
-<td>Communicative English</td>
-<td>Career Development</td>
-<td>---</td>
-<td>---</td>
-<td>Python</td>
-</tr>
+    <tr bgcolor="pink" align="center">
+        <td bgcolor="baby pink">03:00-05:00</td>
+        <td>FREE SLOT</td>
+        <td>COMMUNICATIVE ENGLISH </td>
+        <td>CDS</td>
+        <td>FREE SLOT</td>
+        <td>FREE SLOT</td>
+        <td>PYTHON</td>
+    </tr>
 
 </table>
 
-<br><br>
+<h2> 
 
-<!-- SECOND TABLE: SUBJECT DETAILS -->
 
-<h3 align="center">SUBJECT DETAILS</h3>
 
-<table border="1" align="center" cellpadding="10"
-style="border-collapse:collapse; text-align:center;">
 
-<tr>
-<th>S.No.</th>
-<th>Subject Code</th>
-<th>Subject Name</th>
-</tr>
+</h2>
 
-<tr>
-<td>1</td>
-<td>19CS408</td>
-<td>Software Engineering</td>
-</tr>
 
-<tr>
-<td>2</td>
-<td>19AI414</td>
-<td>Fundamentals of Web Application Development (FWAD)</td>
-</tr>
-
-<tr>
-<td>3</td>
-<td>19AI301</td>
-<td>Python</td>
-</tr>
-
-<tr>
-<td>4</td>
-<td>19EE404</td>
-<td>Digital Electronics</td>
-</tr>
-
-<tr>
-<td>5</td>
-<td>19EN101</td>
-<td>Communicative English</td>
-</tr>
-
-<tr>
-<td>6</td>
-<td>19MA201</td>
-<td>Calculus and Matrix Algebra</td>
-</tr>
-
-<tr>
-<td>7</td>
-<td>19EY708</td>
-<td>Career Development</td>
-</tr>
-
+<table border="2" cellpadding="10" cellspacing="3" align="center" width="700" height="170">
+    <tr align="center">
+        <th>S.No.</th>
+        <th>Subject Code</th>
+        <th>Subject Name</th>
+    </tr>
+    <tr align="center">
+        <td>1.</td>
+        <td>19AI301</td>
+        <td>Python Programming (PY)</td>
+    </tr>
+    <tr align="center">
+        <td>2.</td>
+        <td>19AI1414</td>
+        <td>Fundamentals of Web Application Development (FWAD)</td>
+    </tr>
+    <tr align="center">
+        <td>3.</td>
+        <td>19MA201</td>
+        <td>Calculus and Matrix Algebra (MAT)</td>
+    </tr>
+    <tr align="center">
+        <td>4.</td>
+        <td>19CS305</td>
+        <td>Computer Architecture (CA)</td>
+    </tr>
+    <tr align="center">
+        <td>5.</td>
+        <td>19EY708</td>
+        <td>Career Development Skills (CDS)</td>
+    </tr> 
+    <tr align="center">
+        <td>6.</td>
+        <td>19EN101</td>
+        <td>COmmunicative English (CME)</td>
+    </tr>
+    <tr align="center">
+        <td>7.</td>
+        <td>19AI302</td>
+        <td>Engineering Design and Modelling (EDM)1</td>
+    </tr>        
 </table>
 
 </body>
@@ -164,7 +155,7 @@ style="border-collapse:collapse; text-align:center;">
 ```
 
 ## OUTPUT
-![alt text](image.png)
+![alt text](image-1.png)
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
